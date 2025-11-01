@@ -20,7 +20,7 @@ const Home: React.FC = () => {
   const fetchExperiences = async () => {
     try {
       setLoading(true);
-      const res = await fetch("http://localhost:5000/experiences", {
+      const res = await fetch("https://backkend-h76s.onrender.com/experiences", {
         credentials: "include",
       });
 

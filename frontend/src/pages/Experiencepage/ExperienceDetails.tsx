@@ -36,7 +36,7 @@ const ExperienceDetails: React.FC = () => {
   useEffect(() => {
     const fetchExperience = async () => {
       try {
-        const res = await fetch(`http://localhost:5000/experiences/${id}`);
+        const res = await fetch(`https://backkend-h76s.onrender.com/experiences/${id}`);
         if (!res.ok) throw new Error("Failed to load experience");
         const data = await res.json();
         setExperience(data);

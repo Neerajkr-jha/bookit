@@ -30,7 +30,7 @@ const Checkout: React.FC = () => {
     const fetchUser = async () => {
       try {
         const token = localStorage.getItem("token"); // assuming you store JWT
-        const res = await fetch("http://localhost:5000/api/user/me", {
+        const res = await fetch("https://backkend-h76s.onrender.com/api/user/me", {
           headers: {
             "Content-Type": "application/json",
             Authorization: `Bearer ${token}`,
