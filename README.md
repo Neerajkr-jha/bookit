@@ -43,7 +43,6 @@ Built with a focus on clean architecture, responsiveness, and maintainability.
 - Responsive design (mobile, tablet, desktop)  
 
 ---
-
 bookit/
 ├── backend/                 # API & server logic
 │   ├── src/
