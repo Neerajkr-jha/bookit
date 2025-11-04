@@ -47,26 +47,27 @@ Built with a focus on clean architecture, responsiveness, and maintainability.
 
 ---
 
-## 🗂 Project Structure
+### 🗂 Project Structure
 
+````text
 bookit/
-├── backend/ # API & server logic
-│ ├── src/
-│ │ ├── controllers/
-│ │ ├── models/
-│ │ ├── routes/
-│ │ ├── middlewares/
-│ │ └── app.ts
-│ ├── package.json
-│ └── tsconfig.json
-└── frontend/ # Client-side application
-├── src/
-│ ├── components/
-│ ├── pages/
-│ ├── context/
-│ ├── services/
-│ └── App.tsx
-├── package.json
-└── tsconfig.json
+├── backend/                 # API & server logic
+│   ├── src/
+│   │   ├── controllers/
+│   │   ├── models/
+│   │   ├── routes/
+│   │   ├── middlewares/
+│   │   └── app.ts
+│   ├── package.json
+│   └── tsconfig.json
+└── frontend/                # Client-side application
+    ├── src/
+    │   ├── components/
+    │   ├── pages/
+    │   ├── context/
+    │   ├── services/
+    │   └── App.tsx
+    ├── package.json
+    └── tsconfig.json
 
-```
+---
