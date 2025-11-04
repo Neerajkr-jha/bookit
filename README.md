@@ -1,7 +1,9 @@
-# BookIt -Experiences & Slots
+# BookIt - Experiences & Slots
 
 A full-stack booking application built with modern web technologies (frontend + backend).  
 This repository contains both the frontend and backend of the project.
+
+---
 
 ## 🧐 About
 
@@ -10,6 +12,7 @@ The repository is structured into two main parts: **frontend** (client-side appl
 Built with a focus on clean architecture, responsiveness, and maintainability.
 
 ---
+
 ## ⚙️ Features
 
 - User registration and authentication (login / signup)  
@@ -19,7 +22,7 @@ Built with a focus on clean architecture, responsiveness, and maintainability.
 - Admin panel: manage resources, view all bookings, assign or cancel bookings  
 - Responsive and interactive UI  
 - RESTful API endpoints with proper error handling and validation  
-- Secure password storage and JWT based authentication  
+- Secure password storage and JWT-based authentication  
 - Role-based access control (User / Admin)  
 
 ---
@@ -29,36 +32,39 @@ Built with a focus on clean architecture, responsiveness, and maintainability.
 **Backend**  
 - Node.js & Express  
 - TypeScript  
-- MongoDB (or you can substitute with PostgreSQL)  
+- MongoDB (or PostgreSQL)  
 - JWT for authentication  
 - Mongoose (if using MongoDB)  
 - Dotenv for environment configuration  
 
 **Frontend**  
-- React (with hooks & contexts)  
+- React (with Hooks & Context API)  
 - TypeScript  
 - React Router for navigation  
-- Axios (or Fetch) for API calls  
-- Styled Components / SCSS / CSS Modules (choose whichever you used)  
-- Responsive design (mobile, tablet, desktop)  
+- Axios (or Fetch API) for server communication  
+- Styled Components / SCSS / CSS Modules  
+- Fully responsive design (mobile, tablet, desktop)  
 
 ---
+
+## 🗂 Project Structure
+
 bookit/
-├── backend/                 # API & server logic
-│   ├── src/
-│   │   ├── controllers/
-│   │   ├── models/
-│   │   ├── routes/
-│   │   ├── middlewares/
-│   │   └── app.ts
-│   ├── package.json
-│   └── tsconfig.json
-└── frontend/               # Client-side application
-    ├── src/
-    │   ├── components/
-    │   ├── pages/
-    │   ├── context/
-    │   ├── services/
-    │   └── App.tsx
-    ├── package.json
-    └── tsconfig.json
+├── backend/ # API & server logic
+│ ├── src/
+│ │ ├── controllers/
+│ │ ├── models/
+│ │ ├── routes/
+│ │ ├── middlewares/
+│ │ └── app.ts
+│ ├── package.json
+│ └── tsconfig.json
+└── frontend/ # Client-side application
+├── src/
+│ ├── components/
+│ ├── pages/
+│ ├── context/
+│ ├── services/
+│ └── App.tsx
+├── package.json
+└── tsconfig.json
