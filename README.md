@@ -32,7 +32,7 @@ Built with a focus on clean architecture, responsiveness, and maintainability.
 **Backend**  
 - Node.js & Express  
 - TypeScript  
-- MongoDB (or PostgreSQL)  
+- MongoDB   
 - JWT for authentication  
 - Mongoose (if using MongoDB)  
 - Dotenv for environment configuration  
@@ -41,8 +41,7 @@ Built with a focus on clean architecture, responsiveness, and maintainability.
 - React (with Hooks & Context API)  
 - TypeScript  
 - React Router for navigation  
-- Axios (or Fetch API) for server communication  
-- Styled Components / SCSS / CSS Modules  
+- Axios (or Fetch API) for server communication    
 - Fully responsive design (mobile, tablet, desktop)  
 
 ---
